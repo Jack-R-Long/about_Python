@@ -1,0 +1,163 @@
+/* CSS style sheet */
+*{
+    margin: 0px;
+    padding: 0px;
+    /* outline: solid black 1px; */
+}
+#container {
+    background-image: linear-gradient(to bottom,#245076,#3373AA);
+    width: 970px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12px;
+}
+.gold {
+    color: #FFD42E;
+    text-decoration: underline;
+}
+
+#python, .header_right .search_box, .menus h2, .main_content_left, .main_content_right{
+    display: inline-block;
+}
+.header{
+    padding-left: 25px;
+}
+#python{
+    width: 40%;
+    height: 75%;
+    margin-top: 10px;
+}
+.header_right{
+    float: right;
+    width: 30%;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+    .header_right p {
+        color: white;
+        margin-left: 70px;
+        margin-bottom: 3px;
+    }
+    .search_box {
+        background-color: #444444;
+        width: 70%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        padding-right: 35px;
+        border-radius: 10px;
+        border-right: solid black 2px;
+        border-bottom: solid black 2px;
+    }
+/* Style the search box inside the navigation bar */
+        .header .search_box input[type=text] {
+            text-align: center;
+            padding: 6px;
+            border: none;
+            height: 20px;
+            width: 130px;
+            /* margin-top: 8px;
+            margin-right: 16px; */
+            font-size: 17px;
+        }
+        .header .search_box input[type=submit] {
+            background-color:#245076;
+            color: white;
+            height: 28px;
+            width: 45px;
+            border-radius: 5px;
+ 
+        }
+.menus{
+    width: 790px;
+    margin: auto;
+    background-color: #477EAD;
+    padding: 15px;
+    padding-left: 40px;
+    border-radius: 10px;
+    border-right: solid black 2px;
+    border-bottom: solid black 2px;
+}
+    .menus h2{
+    margin-left: 22px;
+    margin-right: 22px;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    }
+.main_content_left{
+    margin-left: 80px;
+    height: 260px;
+    width: 160px;
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-right: 40px;
+    list-style-position: inside;
+}
+    .main_content_left ul{
+        text-align: center;
+    }
+    .main_content_left li{
+        padding-bottom: 12px;
+    }
+.link{
+    text-decoration: underline;
+    font-size: 16px;
+
+}
+.main_content_right{
+    margin-right: 100px;
+    height: 260px;
+    width: 520px;
+    vertical-align: top;
+    padding-top: 20px;
+    text-align: center;
+
+}
+    .main_content_right p{
+        margin-bottom: 15px;
+    }
+
+.emphasis{
+    color: #FFD42E;
+    font-size: 16px;
+    font-style: italic;
+}
+.white_content{
+    background-color: white;
+    height: 200px;
+    color: black;
+}
+    .white_content .text_block{
+        width: 300px;
+        margin-left: 125px;
+        margin-top: 25px;
+        text-align: center;
+        display: inline-block;
+        vertical-align: top;
+    }
+        .white_content .text_block h3{
+            padding: 8px;
+
+        }
+        .blue {
+            color: #77AAD6;
+        }
+        .white_content .text_block ul{
+            margin-left: 25px;
+        }
+.bottom {
+    height: 100px;
+    color: #87B9E5;
+    text-align: center;
+}
+    .bottom h3{
+        display: inline-block;
+        padding: 20px;
+        margin-top: 25px;
+        font-weight: normal;
+    }
+    .bottom p{
+        font-size: 12px;
+    }
+
